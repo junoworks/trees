@@ -3,62 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinOps AI</title>
+    <title>FinOps AI - Ramp Style</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header class="site-header">
-        <div class="container">
-            <div class="logo">FinOps AI</div>
-            <nav class="main-nav">
-                <a href="#">Product</a>
-                <a href="#">Solutions</a>
-                <a href="#">About</a>
-                <a href="#" class="btn btn-secondary">Contact Sales</a>
-            </nav>
+        <div class="header-inner">
+            <div class="left-nav">
+                <a href="#" class="logo">FinOps <span class="logo-accent">AI</span></a>
+                <nav class="desktop-nav">
+                    <a href="#">Products <span class="caret">⌄</span></a>
+                    <a href="#">Solutions <span class="caret">⌄</span></a>
+                    <a href="#">Customers</a>
+                    <a href="#">Pricing</a>
+                </nav>
+            </div>
+            
+            <div class="right-nav">
+                <a href="#" class="nav-link">Sign in</a>
+                <a href="#" class="btn btn-yellow">See a demo</a>
+            </div>
         </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1 class="hero-title">Financial clarity at the speed of AI.</h1>
-                <p class="hero-subtitle">Automate reconciliation, forecast with precision, and unlock real-time financial intelligence for your enterprise.</p>
-                <div class="hero-actions">
-                    <a href="#" class="btn btn-primary">Get Early Access</a>
-                    <a href="#" class="btn btn-text">Read the manifesto &rarr;</a>
-                </div>
-            </div>
-        </section>
+    <main class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-headline">Reimagine financial<br>operations <span class="highlight">without the chaos.</span></h1>
+            
+            <p class="hero-subtext">
+                Automated reconciliation and forecasting software built into your existing ERP, bank feeds, and more.
+            </p>
 
-        <section class="features">
-            <div class="container">
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            <div class="email-capture">
+                <input type="email" placeholder="What's your work email?" class="email-input">
+                <button class="btn btn-yellow capture-btn">Get started for free</button>
+            </div>
+
+            <a href="#" class="interactive-link">Explore interactive demo &rarr;</a>
+
+            <div class="trust-signal">
+                <p>Join the 50,000+ businesses already simplifying their finances.</p>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="device-mockup">
+                <div class="iphone-bezel">
+                    <div class="notch"></div>
+                    <div class="screen-content">
+                        <div class="ui-header">
+                            <span class="time">9:41</span>
+                            <div class="status-icons">
+                                <span class="signal">ill</span>
+                                <span class="wifi">W</span>
+                                <span class="battery">[]</span>
+                            </div>
                         </div>
-                        <h3>Automated Reconciliation</h3>
-                        <p>Eliminate manual data entry. Our AI matches transactions across thousands of accounts with 99.9% accuracy.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                        
+                        <div class="app-view">
+                            <div class="app-nav">
+                                <span class="back-arrow">&lt;</span>
+                                <div class="app-logo-circle">F</div>
+                                <span class="app-name">FinOps AI &gt;</span>
+                            </div>
+
+                            <div class="message-bubble">
+                                <div class="receipt-icon">🧾</div>
+                                <div class="message-content">
+                                    <p class="msg-title">$14,200 AWS Invoice Matched</p>
+                                    <p class="msg-body">Allocated to "R&D Infrastructure" based on usage patterns.</p>
+                                    <div class="msg-check">
+                                        <span class="check-icon">✓</span> Transaction reconciled!
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="message-bubble user">
+                                <p class="user-msg">Great, approved.</p>
+                            </div>
+
+                             <div class="message-bubble">
+                                <div class="alert-icon">⚠️</div>
+                                <div class="message-content">
+                                    <p class="msg-title">Anomaly Detected</p>
+                                    <p class="msg-body">Vendor "CloudServices Inc" increased billing by 45% month-over-month.</p>
+                                </div>
+                            </div>
+
                         </div>
-                        <h3>Real-time Anomaly Detection</h3>
-                        <p>Spot irregularities instantly. Continuous monitoring protects your bottom line from fraud and errors.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
-                        </div>
-                        <h3>Predictive Cash Flow</h3>
-                        <p>Look forward, not just backward. Generative models simulate scenarios to optimize your capital allocation.</p>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="visual-bg"></div>
+        </div>
     </main>
 
 </body>
