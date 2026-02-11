@@ -3,63 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinOps AI</title>
+    <title>FinOps AI - Shade Style</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header class="site-header">
-        <div class="container">
-            <div class="logo">FinOps AI</div>
+        <div class="header-left">
+            <div class="logo">
+                <span class="logo-icon">✦</span> FinOps AI
+            </div>
             <nav class="main-nav">
-                <a href="#">Product</a>
-                <a href="#">Solutions</a>
-                <a href="#">About</a>
-                <a href="#" class="btn btn-secondary">Contact Sales</a>
+                <a href="#">Features <span class="chevron">⌄</span></a>
+                <a href="#">Case Studies <span class="chevron">⌄</span></a>
+                <a href="#">Resources <span class="chevron">⌄</span></a>
+                <a href="#">Pricing</a>
             </nav>
+        </div>
+        
+        <div class="header-right">
+            <a href="#" class="nav-link">Log In</a>
+            <a href="#" class="btn btn-black">Book a Demo</a>
         </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <h1 class="hero-title">Financial clarity at the speed of AI.</h1>
-                <p class="hero-subtitle">Automate reconciliation, forecast with precision, and unlock real-time financial intelligence for your enterprise.</p>
-                <div class="hero-actions">
-                    <a href="#" class="btn btn-primary">Get Early Access</a>
-                    <a href="#" class="btn btn-text">Read the manifesto &rarr;</a>
-                </div>
+        <section class="hero-section">
+            <h1 class="hero-title">Financial clarity that<br>just works better.</h1>
+            <p class="hero-subtitle">
+                Intelligent reconciliation, automated forecasting, real-time anomaly detection,
+                and a whole lot more for finance teams. All in one platform.
+            </p>
+            <div class="hero-actions">
+                <a href="#" class="btn btn-white">Start for Free</a>
+                <a href="#" class="btn btn-black">Book a Demo</a>
             </div>
         </section>
 
-        <section class="features">
-            <div class="container">
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-                        </div>
-                        <h3>Automated Reconciliation</h3>
-                        <p>Eliminate manual data entry. Our AI matches transactions across thousands of accounts with 99.9% accuracy.</p>
+        <section class="logos-section">
+            <div class="logo-grid">
+                <span>Acme Corp</span>
+                <span>Globex</span>
+                <span>Soylent</span>
+                <span>Initech</span>
+                <span>Umbrella</span>
+                <span>Stark Ind</span>
+                <span>Cyberdyne</span>
+            </div>
+        </section>
+
+        <section class="tabs-nav">
+            <a href="#" class="tab-link">Reconcile</a>
+            <a href="#" class="tab-link">Forecast</a>
+            <a href="#" class="tab-link">Detect</a>
+            <a href="#" class="tab-link active">Report</a>
+        </section>
+
+        <section class="product-showcase">
+            <div class="app-window">
+                <div class="window-header">
+                    <div class="dots">
+                        <span></span><span></span><span></span>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-                        </div>
-                        <h3>Real-time Anomaly Detection</h3>
-                        <p>Spot irregularities instantly. Continuous monitoring protects your bottom line from fraud and errors.</p>
+                    <div class="address-bar">finops.ai/dashboard/reporting</div>
+                </div>
+                <div class="window-content">
+                    <div class="sidebar">
+                        <div class="nav-item active">Dashboard</div>
+                        <div class="nav-item">Transactions</div>
+                        <div class="nav-item">Reports</div>
+                        <div class="nav-item">Settings</div>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                    <div class="main-view">
+                        <div class="chart-area">
+                            <div class="chart-bar" style="height: 60%"></div>
+                            <div class="chart-bar" style="height: 80%"></div>
+                            <div class="chart-bar" style="height: 45%"></div>
+                            <div class="chart-bar" style="height: 90%"></div>
+                            <div class="chart-bar" style="height: 70%"></div>
+                            <div class="chart-bar" style="height: 55%"></div>
                         </div>
-                        <h3>Predictive Cash Flow</h3>
-                        <p>Look forward, not just backward. Generative models simulate scenarios to optimize your capital allocation.</p>
+                        <div class="data-table">
+                            <div class="table-row head">
+                                <span>Metric</span>
+                                <span>Value</span>
+                                <span>Trend</span>
+                            </div>
+                            <div class="table-row">
+                                <span>Cash Flow</span>
+                                <span>$1.2M</span>
+                                <span class="trend up">▲ 12%</span>
+                            </div>
+                            <div class="table-row">
+                                <span>OpEx</span>
+                                <span>$450k</span>
+                                <span class="trend down">▼ 5%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-panel">
+                    <div class="panel-header">
+                        <span>Anomaly Detected</span>
+                        <span class="badge">New</span>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>Transaction #4902</strong></p>
+                        <p class="sub-text">Duplicate vendor payment detected across two regions.</p>
+                        <div class="panel-actions">
+                            <button class="btn-xs">Investigate</button>
+                            <button class="btn-xs secondary">Dismiss</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <div class="toast-notification">
+        We use AI to optimize your cash flow. <a href="#">Learn more</a>
+        <button class="btn-close">×</button>
+    </div>
 
 </body>
 </html>
